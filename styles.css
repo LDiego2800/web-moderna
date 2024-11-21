@@ -1,4 +1,27 @@
-.body {
+body {
     font-family: 'Segoe UI', system-ui, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
+}
+
+nav {
+    position: relative;
+    background-color: rgb(139, 168, 233);
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    height: 40px;
+    }
+
+nav a {
+    text-decoration: none;
+    text-decoration: none;
+    padding: 20px 300px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+main {
+    text-align: center;
 }
