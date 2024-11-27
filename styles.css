@@ -48,7 +48,7 @@ main {
 }
 
 main {
-    border: solid red;
+    
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -109,5 +109,17 @@ p {
 
     h2 {
         color: rgb(226, 214, 214);
+    }
+
+    p {
+        color: rgb(226, 214, 214);
+    }
+
+    section {
+        background-color: rgb(39, 38, 38);
+    }
+
+    main {
+        margin-top: 10px;
     }
 }
