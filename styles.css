@@ -18,7 +18,7 @@ nav {
     width: 100%;
     background-color: #777eeb;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 1px;
     z-index: 1000;
@@ -64,6 +64,7 @@ section {
     align-items: center;
     background-color: hsla(0, 7%, 70%, 0.74);
     padding: 20px;
+    overflow:scroll;
 }
 
 h1 {    
@@ -87,6 +88,14 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+
+
+}
+
+.button:hover {
+    background-color: #961111; /* Azul más oscuro */
+    transform: scale(1.1); /* Efecto de agrandar */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 p {
